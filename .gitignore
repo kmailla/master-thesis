@@ -1,0 +1,8 @@
+/.idea
+/__pycache__
+/datasets
+/logs
+/misc.py
+/saved_models
+/venv
+/wikitext-2
