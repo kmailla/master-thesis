@@ -8,9 +8,15 @@ The code is for training, saving and using a write assistant with the following 
 * correction by using translation from second language (if someone uses a second language and forgets the needed word in the first language)
 * spelling correction and correction by using translation (if the second language word is misspelled, it can still give the correct first language word as an offer)
 
+Used models:
+* LSTM and GRU options for word prediction
+* seq2seq for translation (LSTM and GRU options)
+* seq2seq for spelling correction (LSTM and GRU options)
+
 The report can be found here: https://tinyurl.com/kmailla-thesis
 
 Example with English and Danish langauges
+
 ![model chart](https://github.com/kmailla/master-thesis/blob/main/model.PNG?raw=true)
 
 
