@@ -2,7 +2,17 @@
 
 This repository contains files from my master's thesis written in 2019. It doesn't contain my previous commit history and all of the files as some of the datasets I used were owned by a private company.
 
+The code is for training, saving and using a write assistant with the following functionalities:
+* word prediction
+* spelling correction
+* correction by using translation from second language (if someone uses a second language and forgets the needed word in the first language)
+* spelling correction and correction by using translation (if the second language word is misspelled, it can still give the correct first language word as an offer)
+
 The report can be found here: https://tinyurl.com/kmailla-thesis
+
+Example with English and Danish langauges
+![model chart](https://github.com/kmailla/master-thesis/blob/main/model.PNG?raw=true)
+
 
 # Abstract
 
